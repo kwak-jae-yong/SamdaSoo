@@ -1,0 +1,25 @@
+@media screen and (max-width:890px){
+    footer .policy-wrap{
+        gap: 1.5rem;
+    }
+    footer .policy-wrap p{
+        font-size: 1.2rem;
+        
+    }
+    footer .policy-wrap p:nth-child(1){
+        font-weight: 500;
+    }
+     footer .icon-wrap{
+        gap: .9rem;
+      }
+      footer .info-wrap{
+        flex-direction: column;
+      }
+    .icon-wrap span img{
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    footer .logo-wrap{
+        width: 10.5rem;
+    }
+}
