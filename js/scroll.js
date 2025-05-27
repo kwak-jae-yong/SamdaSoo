@@ -56,7 +56,26 @@ window.addEventListener('DOMContentLoaded',()=>{
   })
 
 
-  scene1.fromTo('.sc2 .text>*',{
+  scene2.fromTo('.sc2 .text>*',{
+    opacity:0
+  },{
+    
+    opacity:1,
+    stagger:.3
+  })
+  // 2
+  const scene3 = gsap.timeline()
+
+  ScrollTrigger.create({
+    animation:scene3,
+    trigger:'.sc3',
+    start:'top 30%',
+    end:'top 50%',
+    scrub:3
+  })
+
+
+  scene3.fromTo('.sc3 .text>*',{
     opacity:0
   },{
     
